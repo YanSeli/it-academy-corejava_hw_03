@@ -12,7 +12,7 @@ public class task11_34 {
         int half1 = 0;
         int half2 = 0;
 
-        //осащдки за месяц
+        //осадки за месяц
         for (int i = 1; i < precipitation.length; i++) {
             int n = rand.nextInt(1000);//рандомайзер для осадков
             precipitation[i] = n;
